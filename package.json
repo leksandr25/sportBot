@@ -1,4 +1,7 @@
 {
+  "name": "sport-bot",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "telegraf": "4.12.2"
   }
