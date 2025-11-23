@@ -1,10 +1,8 @@
 {
-  "runtime": {
-    "python_version": "3.10"
-  },
   "functions": {
     "api/webhook.py": {
-      "runtime": "vercel-python@0.5.0"
+      "memory": 128,
+      "maxDuration": 10
     }
   }
 }
