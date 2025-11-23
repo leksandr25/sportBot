@@ -6,8 +6,8 @@ def handler(request):
     if request.method != "POST":
         return {"statusCode": 200, "body": "OK"}
 
-    body = json.loads(request.body)
-    asyncio.run(handle_update(body))
+    data = json.loads(request.body)
+    asyncio.run(handle_update(data))
 
     return {
         "statusCode": 200,
